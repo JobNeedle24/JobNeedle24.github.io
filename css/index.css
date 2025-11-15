@@ -2,11 +2,21 @@ body{
     background-image: url("../images/OfflineBannerNoText.png");
     background-repeat: no-repeat;
     background-color: #3f3574;
+    background-size: 100%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: wheat;
+    overflow: hidden;
+
+}
+
+.tv{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    color: wheat;
+    transform: translate(-50%, -50% );
 }
 
 
@@ -15,4 +25,5 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: auto;
 }
